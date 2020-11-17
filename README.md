@@ -1,12 +1,27 @@
 ![Header Image - Neon Startpage](/images/socialpreview.png)
 
-A neon styled start page. It contains:
+# A neon styled start page. 
+#Included are 3 segments:
 
-* 4x social media sites (Facebook, WhatsApp, Instagram, LinkedIn
-* 4x Learning websites (Github, W3, Udemy, C# Documentation)
-* 4x Relaxing websites (Youtube, Spotify, Reddit, Strava)
+## Social
+* Facebook
+* Whatsapp
+* Instagram
+* LinkedIn
 
-All the links have custom mouseover styles to reflect the website they link to.
+## Learning
+* Github
+* W3 Schools
+* Udemy
+* C# Documentation
+
+## Relaxing
+* Youtube
+* Spotify
+* Reddit
+* Strava
+
+All links have custom mouseover styles to reflect the website they link to.
 
 ![Example of custom Mouseover styles](/images/example.gif)
 
