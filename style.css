@@ -1,0 +1,228 @@
+body {
+    background-image: url('images/neon.jpg');
+    background-size: cover;
+}
+
+.container {
+    width: 80%;
+    justify-content: space-around;
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.menu {
+    background-color: darkslateblue;
+    padding: 0px;
+    margin: 0px;
+    width: auto;
+}
+
+a {
+    font-family: 'Inconsolata', monospace;
+}
+
+.navbardiv {
+    display: inline-flex;
+    width: 100%;
+    padding: 0px;
+    margin: 0px 0px 5px 0px;
+}
+
+.navmenu {
+    padding: 0px;
+    margin: 0px;
+    flex-wrap: wrap;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.navmenu, .navmenu a {
+    font-size: 1.2em;
+    color: black;
+    text-decoration: none;
+}
+
+.navmenu a {
+    padding: 0px 5px;
+    margin: 5px;
+    border-bottom: rgba(255, 255, 255, 0.1) 4px solid;
+}
+
+.navmenu a:hover {
+    border-bottom: rgba(204, 64, 143, 0.2) 4px solid;
+    border-left: rgba(204, 64, 143, 0.6) 4px solid;
+    list-style: none;
+    color: black;
+    text-decoration: none;
+    padding: 5px 5px 1px 1px;
+    margin: 5px;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.linkcolumn {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+.linkdiv {
+    height: 50px;
+    padding-bottom: 15px;
+}
+
+.linkdiv, .linkdiv a {
+    display: flex;
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+    vertical-align: middle;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 0px;
+    margin: 0px;
+    font-size: 1em;
+    list-style: none;
+    color: rgb(255, 144, 162);
+    text-decoration: none;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.linkdiv:hover {
+    background-color: rgba(204, 64, 143, 0.2);
+    color: white;
+}
+
+.linkdiv a {
+    font-size: larger;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0px 5px;
+    margin: 5px;
+}
+
+.linkdiv a:hover {
+    color: white;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.buffer {
+    height: 30vh;
+}
+
+.linkbox {
+    border-radius: 8px;
+    margin-right: 0px;
+    padding-right: 0px;
+    border: 2px white solid;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.linkcolumncentre {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    border-left: white 2px solid;
+    border-right: white 2px solid;
+}
+
+.icon {
+    font-size: 2em;
+    padding: 5px;
+    margin: 5px;
+    margin-right: 0px;
+    padding-right: 0px;
+    width: 80px;
+}
+.heading {
+    color: pink;
+    border-bottom: black 3px solid;
+    margin-left: auto;
+    margin-right: 0px;
+    padding-right: 0px;
+    font-family: 'Poiret One', cursive;
+    font-weight: 100;
+    font-size: 2em;
+}
+.facebook:hover {
+    background-color: rgb(66, 103, 178);
+    color: white;
+    text-decoration: none;
+}
+.instagram:hover {
+    color: rgb(245, 96, 64);
+    background-color: rgb(64, 93, 230);
+}
+.whatsapp:hover {
+    color: white;
+    background-color: rgb(37, 211, 102);
+}
+.linkedin:hover {
+    color: white;
+    background-color: rgb(40, 143, 178);
+}
+.github:hover {
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+.w3:hover {
+    color: rgb(76, 175, 80);
+    background-color: white;
+}
+.udemy:hover {
+    color: #ec5252;
+    background-color: white;
+}
+.dotnet:hover {
+    color: white;
+    background-color: rgb(81, 43, 212);
+}
+.youtube:hover {
+    color: red;
+    text-emphasis-color: black;
+    background-color: rgb(40, 40, 40);
+}
+.spotify:hover {
+    color: rgb(30, 215, 96);
+    background-color: rgb(25, 20, 20);
+}
+.reddit:hover {
+    color: rgb(255, 69, 0);
+    background-color: white;
+}
+.strava:hover {
+    color: rgb(252, 76, 2);
+    background-color: white;
+}
+footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    background-color: rgba(25, 20, 20, 0.308);
+    text-align: right;
+    width: 100%;
+}
+.footertext {
+    color: rgba(255, 255, 255, 0.212);
+    margin: 5px;
+}
+.linkstyle:hover {
+    text-decoration: none;
+}
